@@ -1,0 +1,367 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #171F25;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/pictures/background/SOCIAL-MEDIA.-2-png\ 1.png'); /* Background image */
+  
+}
+
+/*haeder start*/
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 2500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 0px;
+    font-weight: 600;
+    width: 96%;
+    top: 0;
+    
+    
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #171D22 ;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: #D82128;
+} 
+
+/*haeder end*/
+
+
+/*landing page start*/
+#landing{
+    height: 500px;
+    z-index: 1;
+}
+#landing .header{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+    
+
+    
+}
+#landing .header h1{
+    white-space: pre-line;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.51px;
+     color: #D4343A;
+
+}
+#landing .header img{
+ width: 368px;
+height: 263px;
+
+
+}
+
+#landing p{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+white-space: pre-line;
+}
+
+
+/*landing page end*/
+
+
+
+/*activities page start*/
+#activities{
+    z-index: 999;
+}
+#activities .background-container{
+    
+    box-sizing: border-box;
+    position: relative;
+    background-position:bottom ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-image: url('/pictures/background/mask-gr.png');
+    
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   
+    
+}
+
+#activities .header h1 ,#teams h1{
+    line-height: 43.88px; 
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 36px;
+    padding-top: 150px;
+    text-align: center;
+    border: none;
+    margin-top: 0px;
+}
+
+
+#activities .content h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 29px;
+    margin-bottom: 0px;
+    Line-height:43.5px;
+
+}
+#activities .content p{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    Line-height:30px;
+    color: #F3F3F3;
+    margin-top: 0px;
+}
+
+#activities .team img{
+  width: 424px;
+  height: 318px;
+  border-radius: 15px;
+  position: relative;
+}
+
+
+#activities .header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 400px;
+    position: relative;
+    white-space:pre-line;
+}
+
+/*activities page end*/
+
+
+/*our teams start*/
+#teams {
+    background-color: #E6E6E6;
+    height: 100%;
+   position: relative;
+   
+}
+#teams h1{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 36px;
+    Line-height:43.88px;
+    color: #D4343A;
+    
+}
+#teams .header{
+    padding-top: 0;
+}
+#teams  p{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#teams h2{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 29px;
+    padding-top: 40px;
+    line-height: 35.35px;
+}
+
+#teams .content{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+    white-space:pre-line;
+    line-height: 23.86px;
+}
+
+
+#teams .header-content{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    white-space:pre-line;
+    margin-bottom: 100px;
+}
+
+#teams .row{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#teams .row .item .green {
+   color:#1B898C;
+   
+}
+#teams .row .item .red{
+    color:#D4343A ;
+}
+#teams .row .item .purple{
+  color: #573763;
+}
+
+#teams .row .item img{
+    height: 85.68px;
+    width: 85px;
+    box-shadow: 0px 5px 4.4px 0px #00000040;
+    border-radius: 50px;
+    position: absolute;
+    left: 80px;
+    top: -44px;
+}
+ 
+
+
+
+#teams .row .item{
+   border-radius: 15px;
+    width: 242px;
+    height: 268.6px;
+    box-shadow: 0px 5px 4.4px 0px #00000040;
+    background: #FFFFFF;
+   position: relative;
+   transition: all 0.5s ease;
+   
+}
+#teams .row .item:hover{
+    transform: scale(1.04);
+    
+}
+/*our teams end*/
+
+
+
+/*footer start*/
+
+footer {
+    background-color: #171F25;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-content div {
+    flex: 1;
+    max-width: 200px;
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-bottom {
+    padding-top: 10px;
+    font-size: 0.9em; /* Slightly smaller text */
+    background-color: transparent;
+}
+
+/*footer end*/
+
+@media(max-width:1017px){
+    #activities .header-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 400px;
+        position: relative;
+        white-space:pre-line;
+        
+    }
+    #activities {
+        right: 0;
+        box-sizing: border-box;
+        position: relative;
+        background-position:bottom ;
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        background-image: url('/pictures/background/mask-gr.png');
+    }
+
+}
+
+@media(max-width:873px){
+    header {
+        background-repeat: no-repeat;
+        font-weight: 600;
+        width: 96%;
+        top: 0;
+        display: inline-block;
+        
+    }
+    nav{
+        display: block;
+        margin-top: 50px;
+    }
+    header .logo img {
+        height: 50px;
+        display: block;
+    }
+
+    #teams .row{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+}
